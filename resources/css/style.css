@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+.navbar-brand {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 30px;
+    font-size: 23px;
+}
+
+i {
+    font-size: 30px;
+}
+
+input.email-holder {
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+input.submit-holder {
+    background-color: #305c5c;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.featured a.btn {
+    padding: 10px 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    i {
+        font-size: 15px;
+    }
+}
